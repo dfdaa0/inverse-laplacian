@@ -1,4 +1,4 @@
-# poisson-problem
+# inverse-laplacian
 
 This code was made as part of a Scientific Project executed in [Unimontes](https://unimontes.br/) and financed by [FAPEMIG](http://www.fapemig.br/).  
 
