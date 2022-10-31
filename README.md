@@ -12,4 +12,9 @@ The two methods exposed in this project:
 
 ## Dependencies
 
-Make sure to install [NumPy](https://numpy.org/install/) and [Matplotlib](https://matplotlib.org/stable/users/installing/index.html)  
+Make sure to install [NumPy](https://numpy.org/install/) and [Matplotlib](https://matplotlib.org/stable/users/installing/index.html).  
+
+Use the following commands:  
+- python -m pip install -U pip
+- python -m pip install -U matplotlib
+- python -m pip install -U numpy
