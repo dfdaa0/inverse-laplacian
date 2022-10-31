@@ -20,5 +20,6 @@ Steps:
 1. Calculate the Fourier Transform of C and store it in X;
 2. Calculate the Fourier Transform of B and store it in Y;
 3. Divide X by Y and store it in Z;
-4. Calculate the Inverse Fourier Transform of Z;  
+4. Calculate the Inverse Fourier Transform of Z;
+
 Note that the Fourier operator results in complex numbers, which obligates the use of `numpy.real()` function.  
