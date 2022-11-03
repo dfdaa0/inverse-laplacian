@@ -13,10 +13,10 @@ Execute the following commands in your terminal:
 
 ## Introduction
 
-This code implements the math behind the recovering of images or functions from the laplacian form of those, applying the convolution theorem, assuming that the Laplacian of an image can be simulated through a 3x3 mask called "Kernel".  
+This code implements the math behind the recovering of images or functions from the laplacian form of those, applying the convolution theorem, assuming that the Laplacian of an image can be simulated through a 3x3 mask called "Kernel", that filters the image, highlighting its borders.  
 The [Convolution Theorem](https://en.wikipedia.org/wiki/Convolution_theorem) especifies that, given a certain function C, that is the convolution result of the functions A and B, if B and C is known, it is possible to recover A using the Inverse Fourier Transform.  
 
-## Steps:
+## Mathematical Steps:
 
 1. Calculate the Fourier Transform of C and store it in X;
 2. Calculate the Fourier Transform of B and store it in Y;
