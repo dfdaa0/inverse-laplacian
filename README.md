@@ -25,7 +25,7 @@ The [Convolution Theorem](https://en.wikipedia.org/wiki/Convolution_theorem) esp
 1. Imports a image/function via a given path;
 2. Filters the image using the specified kernel;
 3. Calculates the Fourier Transform of the filtered image;
-4. Divides it by the Fourier Transform of the kernel;
+4. Divides it by the Fourier Transform of the kernel (sometimes it is necessary to switch 0 values to 1 because of division domain problems);
 5. Calculates the Inverse Fourier Transform of the result, which gives the original image;
 
 Note that the Fourier operator results in complex numbers, which obligates the use of `numpy.real()` function.  
